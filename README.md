@@ -3,7 +3,7 @@
 This tool is a temporary fix until the developers at KhanAcademy.org are able to spend the time to upgrade the activity log. My hope is that at some point this tool will not be needed any longer. This tool is a proof of concept, so PLEASE forgive me if it has bugs. If you are a programmer and interested in helping to upgrade this code, fork this repository and edit it.
 
 # Why does this exist?
-When grading students I struggle to gain insight into how much they worked in a given grading cycle, what they are working on and what they are struggling with. I do not find the current reports very helpful.
+When grading students I struggle to gain insight into how much they worked in a given grading cycle, what they are working on and what they are struggling with. All of that data exists, but I find the teacher user interface requires too many clicks. In my last grading cycle my students had 3020 records of data in their combined activity logs. To view all of this data requires... no joke... 302 mouse clicks! Also, all of the subjects for a single student are combined together. It simply took too long to do anything with the data in its current form.
 
 To solve this issue I decided the best solution was to get the activity log into a spreadsheet at which point I can manipulate the data to my heart's content. There is a csv file available for download in the settings page, but it only includes information on assignments. It does not give me a full view of the students' activity. 
 
