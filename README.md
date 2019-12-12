@@ -10,8 +10,18 @@ To solve this issue I decided the best solution was to get the activity log into
 # How does it work?
 This tool is a Google Chrome Extension. It works by reading the HTML of the page, searching through the document object model and extracting the raw data saving it into a big array. It will automatically click the 'next' button until it gets to the end of the log. Once it is finished it will create a CSV file which you can download and import into any spreadsheet.
 
+# Download and Installation
+
+1. [Download Version 1](https://github.com/zenmanenergy/KhanAcademy/releases/download/1.0/ActivityLog.zip)
+2. Unzip the files into a folder. If you need help with this, let me know.
+3. Make sure you have the [Google Chrome Web Browser] (https://www.google.com/chrome/)
+4. Open a new tab in google type in: chrome://extensions
+5. Click on button in the upper left corner: "Load Unpacked"
+6. You should see it in the list.
+
 # How do I use it?
 First you have to install it in your Chrome browser (it ONLY works in Google Chrome!) Once installed in the browser you will see a button, with a little magic wand on it, in the browser to the right of the address bar. Go to the teacher dashboard, choose a class and a student, choose the start/end date then press the magic wand. 
+
 
 # Can I download a whole class all at once?
 Not yet. Right now it requires pressing the button one student at a time. I agree this is a major annoyance! But I struggled to get it to automatically select the dates. If anyone wants to help fix that problem, let's brainstorm. I'll explain what I know so far and maybe you can pick up where I left off! 
