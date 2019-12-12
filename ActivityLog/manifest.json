@@ -1,0 +1,16 @@
+{
+  "name": "Khan Academy Activity Log",
+  "description": "This extension will crawl through a Khan Academy activity log and extract the data to be imported into a spreadsheet",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "Khan Academy Log Extractor"
+  }
+}
