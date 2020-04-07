@@ -29,8 +29,6 @@ var count = 0;
 var rawData =[];
 var data;
 function parsePage() {
-	console.log("parsePage");
-		console.log("---------------------------------");
 	tbody = document.querySelector("tbody");
 
 

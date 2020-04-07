@@ -61,23 +61,17 @@ chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
 
 	 	if (request.done){
-		  	console.log(request.count);
-		  	console.log(request.rawData);
 			var subjects=[];
 			for (var i=0;i < request.rawData.length; i++){
 
 				if (!subjects[request.rawData[i].subject]){
-					console.log("new")
 					subjects[request.rawData[i].subject]=parseInt(request.rawData[i].minutes);
-						console.log(subjects);
+
 				} else{
-					console.log("add")
-					console.log(subjects[request.rawData[i].subject]);
 					subjects[request.rawData[i].subject]=subjects[request.rawData[i].subject] + parseInt(request.rawData[i].minutes);
 
 				}
 			}
-	console.log(subjects);
 			var table="<table class='table' width=70% border=0 cellpadding=0 cellspacing=0>"
 			table += "<tr class=tablerow><td><b>Subject</b></td><td><b>Minutes</b></td></tr>";
 			for (var i in subjects){
