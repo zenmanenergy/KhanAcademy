@@ -1,4 +1,4 @@
-# KhanAcademy Activity log Data Scaper v1.0
+# KhanAcademy Activity log Data Scaper
 
 This tool is a temporary fix until the developers at KhanAcademy.org are able to spend the time to upgrade the activity log. My hope is that at some point this tool will not be needed any longer. This tool is a proof of concept, so PLEASE forgive me if it has bugs. If you are a programmer and interested in helping to upgrade this code, fork this repository and edit it.
 
@@ -12,7 +12,7 @@ This tool is a Google Chrome Extension. It works by reading the HTML of the page
 
 # Download and Installation
 
-1. [Download Version 1](https://github.com/zenmanenergy/KhanAcademy/releases/download/1.0/ActivityLog.zip)
+1. [Download Version 1.01](https://github.com/zenmanenergy/KhanAcademy/archive/1.01.zip)
 2. Unzip the files into a folder. If you need help with this, let me know.
 3. Make sure you have the [Google Chrome Web Browser] (https://www.google.com/chrome/)
 4. Open a new tab in google type in: chrome://extensions
