@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html style="min-width:400px;min-height:500px;">
+  <head>
+    <style type="text/css">
+    .table   { display: table; border-collapse: collapse;}
+    .tablerow  { display: table-row;  font-size: 15px; border-bottom: 1px solid #000;}
+    .tablecell { display: table-cell;}
+</style>
+  </head>
+  <body width="500" height="600">
+  	<h2>Khan Academy Student Activity Log Extractor</h2>
+    <p>How to use this:</p>
+
+    <ol>
+      <li>Login to Khan Academy</li>
+      <li>Click on "progress" on the left side under "my account"</li>
+      <li>Select the start and end dates</li>
+      <li>Click <button id="getDataButton">this button</button>
+      <li>Don't touch anything until it is done!</li>
+
+    <div id="rawData"></div>
+
+    <div id="studentName"></div>
+    <div id="rowCount"></div>
+    <script type="text/javascript" src="popup.js" defer></script>
+  </body>
+</html>
